@@ -2,7 +2,7 @@
  * @Author: sbd
  * @Date: 2022-02-21 10:12:55
  * @LastEditors: sbd
- * @LastEditTime: 2022-02-22 10:36:22
+ * @LastEditTime: 2022-02-22 16:24:36
  * @Description: file content
  */
 module.exports = [
@@ -13,18 +13,16 @@ module.exports = [
         text: '学习资源',
         items: [
             { text: '前端学习路线', link: '/resource/' },
+            { text: '日常杂记', link: '/daily/' }
         ]
     },
 
     {
         text: '技术总结',
         items: [
-
             {
                 text: 'css', link: '/technical-summary/css/'
-            },
-
-
+            }
         ]
     },
     {
@@ -41,7 +39,7 @@ module.exports = [
                 text: '技术胖-博客', link: 'https://jspang.com'
             },
             {
-                text:'阮一峰-博客', link:'http://www.ruanyifeng.com/blog/'
+                text: '阮一峰-博客', link: 'http://www.ruanyifeng.com/blog/'
             }
         ]
     },
